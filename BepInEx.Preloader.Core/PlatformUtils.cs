@@ -127,7 +127,6 @@ internal static class PlatformUtils
                 current |= Platform.ARM;
         }
 
-        PlatformHelper.Current = current;
     }
 
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
